@@ -50,4 +50,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/flasktest-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/AWS-CI-CD-PIPELINE :latest
